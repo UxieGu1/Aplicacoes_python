@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Tarefa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Adicionar Tarefa</h1>
+    <form method="POST">
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo"><br>
+        
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" name="descricao"></textarea><br>
+        
+        <label for="horario">Horário:</label><br>
+        <input type="text" id="horario" name="horario"><br>
+        
+        <button type="submit">Adicionar</button>
+    </form>
+</body>
+</html>
