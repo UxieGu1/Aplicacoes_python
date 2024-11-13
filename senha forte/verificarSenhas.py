@@ -1,4 +1,3 @@
-
 # a. Comprimento da senha: mínimo de oito caracteres
 # b. Caracteres numéricos: mínimo de dois números
 # c. Caracteres especiais: mínimo de um caractere especial
